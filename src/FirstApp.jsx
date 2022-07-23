@@ -8,8 +8,10 @@ export const FirstApp = ({ title, subtitle, name }) => {
 
     return (
         <>
-            <h1>{title}</h1>
+            <div data-testid="test-title">{title}</div>
             {/* <code>{JSON.stringify(newMessage)}</code> */}
+            <p>{subtitle}</p>
+            <p>{subtitle}</p>
             <p>{subtitle}</p>
             <p>{name}</p>
         </>
