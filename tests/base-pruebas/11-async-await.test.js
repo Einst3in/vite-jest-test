@@ -5,7 +5,7 @@ describe('Pruebas 11-async-await', () => {
         
         const resp = await getImagen()
 
-        expect(resp).toBe('No se encontro la imagen')
+        expect(typeof resp).toBe('string')
         
     })
  })
