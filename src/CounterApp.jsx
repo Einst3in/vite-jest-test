@@ -34,11 +34,11 @@ export const CounterApp = ({value}) => {
 
 }
 
-CounterApp.defaultProps = {
-    value : 1
-}
+// CounterApp.defaultProps = {
+//     value : 1
+// }
 
-CounterApp.protoTypes = {
+CounterApp.propTypes = {
     value : PropTypes.number.isRequired
 }
 

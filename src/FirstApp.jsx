@@ -19,7 +19,7 @@ export const FirstApp = ({ title, subtitle, name }) => {
 }
 
 
-FirstApp.protoType = {
+FirstApp.propType = {
     subtitle: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
 }

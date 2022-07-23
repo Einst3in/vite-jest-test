@@ -6,7 +6,7 @@ describe('Pruebas <CounterApp/>', () => {
     const initail_value = 100
 
     test('debe de hacer match con el snapshot', ()=>{
-        const {container} = render(<CounterApp/>)
+        const {container} = render(<CounterApp value={initail_value}/>)
         expect(container).toMatchSnapshot()
     })
 
