@@ -34,10 +34,6 @@ export const CounterApp = ({value}) => {
 
 }
 
-// CounterApp.defaultProps = {
-//     value : 1
-// }
-
 CounterApp.propTypes = {
     value : PropTypes.number.isRequired
 }
